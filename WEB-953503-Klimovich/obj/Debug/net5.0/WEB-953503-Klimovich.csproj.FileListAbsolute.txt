@@ -79,3 +79,6 @@
 /Users/artegful/Projects/WEB-953503-Klimovich/WEB-953503-Klimovich/obj/Debug/net5.0/ref/WEB-953503-Klimovich.dll
 /Users/artegful/Projects/WEB-953503-Klimovich/WEB-953503-Klimovich/obj/Debug/net5.0/WEB-953503-Klimovich.pdb
 /Users/artegful/Projects/WEB-953503-Klimovich/WEB-953503-Klimovich/obj/Debug/net5.0/WEB-953503-Klimovich.genruntimeconfig.cache
+/Users/artegful/Projects/WEB-953503-Klimovich/WEB-953503-Klimovich/obj/Debug/net5.0/Razor/Views/Shared/Components/Menu/Default.cshtml.g.cs
+/Users/artegful/Projects/WEB-953503-Klimovich/WEB-953503-Klimovich/obj/Debug/net5.0/Razor/Views/Shared/_UserPartial.cshtml.g.cs
+/Users/artegful/Projects/WEB-953503-Klimovich/WEB-953503-Klimovich/obj/Debug/net5.0/Razor/Views/Shared/Components/Cart/Default.cshtml.g.cs
