@@ -9,6 +9,10 @@
   <ItemGroup>
     <None Remove="Controllers\" />
     <None Remove="Views\Home\" />
+    <None Remove="Components\" />
+    <None Remove="Views\Shared\Components\" />
+    <None Remove="Views\Shared\Components\Menu\" />
+    <None Remove="Views\Shared\Components\Cart\" />
   </ItemGroup>
   <ItemGroup>
     <None Update="app.db" CopyToOutputDirectory="PreserveNewest" ExcludeFromSingleFile="true" />
@@ -29,5 +33,9 @@
     <Folder Include="wwwroot\images\" />
     <Folder Include="Controllers\" />
     <Folder Include="Views\Home\" />
+    <Folder Include="Components\" />
+    <Folder Include="Views\Shared\Components\" />
+    <Folder Include="Views\Shared\Components\Menu\" />
+    <Folder Include="Views\Shared\Components\Cart\" />
   </ItemGroup>
 </Project>
