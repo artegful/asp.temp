@@ -1,0 +1,138 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title></title>
+    <link href="lib/bootstrap/dist/css/bootstrap.css" rel="stylesheet" />
+    <link href="lib/font-awesome/css/all.css" rel="stylesheet" />
+    <link href="css/site.css" rel="stylesheet" />
+</head>
+<body>
+    <header>
+        <div class="container">
+            <nav class="navbar navbar-expand-md navbar-dark bg-dark">
+                <a class="navbar-brand" href="#">95350066</a>
+                <div class="navbar-nav">
+                    <a class="nav-item nav-link active" href="#"><span class="badge badge-secondary">Лаба1</span></a>
+                    <a class="nav-item nav-link" href="#"><span class="badge badge-secondary">Каталог</span></a>
+                    <a class="nav-item nav-link" href="#"><span class="badge badge-secondary">Администрирование</span></a>
+                </div>
+
+                <a href="#" class="navbar-text ml-auto">
+                    <i class="fas fa-shopping-cart nav-color"></i> 0
+                </a>
+                <div class="dropdown ml-4 nav-color">
+                    <div class="dropdown-toggle" id="dropdownMenuButton"
+                         data-toggle="dropdown" aria-haspopup="true"
+                         aria-expanded="false">
+                        <img src="images/user.png" width="30"
+                             alt="User" class="rounded" />
+                    </div>
+                    <div class="dropdown-menu"
+                         aria-labelledby="dropdownMenuButton">
+                        <div class="dropdown-item-text">
+                            <img src="images/user.png" width="50" class="rounded" /> artem@gmail.com
+                        </div>
+                        <div class="dropdown-divider"></div>
+                        <a class="dropdown-item" href="#">Товары</a>
+                        <a class="dropdown-item" href="#">Выйти</a>
+                    </div>
+                </div>
+            </nav>
+        </div>
+    </header>
+
+    <main class="container">
+        <h1>Лабораторная работа 1</h1>
+        <h2>Список</h2>
+        <ol type="A">
+            <li>Элемент 1</li>
+            <li>Элемент 2</li>
+        </ol>
+
+        <hr />
+
+        <h2>Форма</h2>
+        <form method="post">
+            <div class="form-group row justify-content-end">
+                <div class="col-sm-10">
+                    <div class="form-check">
+                        <input class="form-check-input" type="checkbox" name="check-1" value="on">
+                        <label class="form-check-label">
+                            чек-бокс 1
+                        </label>
+                    </div>
+                    <div class="form-check">
+                        <input class="form-check-input" type="checkbox" name="check-2" value="on">
+                        <label class="form-check-label">
+                            чек-бокс 2
+                        </label>
+                    </div>
+                </div>
+            </div>
+            <div class="form-group row justify-content-end">
+                <div class="col-sm-10">
+                    <div class="row">
+                        <div class="form-check col-sm-auto">
+                            <input class="form-check-input" type="radio" name="radio" value="radio-1" checked>
+                            <label class="form-check-label">
+                                Радио-1
+                            </label>
+                        </div>
+                        <div class="form-check col-sm-auto">
+                            <input class="form-check-input" type="radio" name="radio" value="radio-2">
+                            <label class="form-check-label">
+                                Радио-2
+                            </label>
+                        </div>
+                        <div class="form-check col-sm-auto">
+                            <input class="form-check-input" type="radio" name="radio" value="radio-3">
+                            <label class="form-check-label">
+                                Радио-3
+                            </label>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="form-group row">
+                <label class="col-sm-2 col-form-label">Логин</label>
+                <div class="col-sm-10">
+                    <input type="text" class="form-control" name="login" placeholder="Введите имя">
+                </div>
+            </div>
+            <div class="form-group row">
+                <label class="col-sm-2 col-form-label">Пароль</label>
+                <div class="col-sm-10">
+                    <input type="password" class="form-control" name="password" placeholder="Введите пароль">
+                </div>
+            </div>
+            <div class="form-group row">
+                <div class="col-sm-10">
+                    <button type="submit" class="btn btn-primary">Отправить</button>
+                </div>
+            </div>
+        </form>
+    </main>
+
+    <footer>
+        <div class="container">
+            <div class="navbar navbar-dark navbar-expand-md bg-dark">
+                <div class="navbar-nav ml-auto">
+                    <a class="nav-item nav-link" href="https://www.facebook.com">
+                        <i class="fab fa-facebook-f fa-2x"></i>
+                    </a>
+                    <a class="nav-item nav-link" href="https://www.vk.com">
+                        <i class="fab fa-vk fa-2x"></i>
+                    </a>
+                    <a class="nav-item nav-link" href="https://www.twitter.com">
+                        <i class="fab fa-twitter fa-2x"></i>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="lib/jquery/dist/jquery.js"></script>
+    <script src="lib/bootstrap/dist/js/bootstrap.bundle.js"></script>
+</body>
+</html>

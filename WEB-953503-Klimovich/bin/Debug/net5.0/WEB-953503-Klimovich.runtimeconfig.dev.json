@@ -1,0 +1,8 @@
+{
+  "runtimeOptions": {
+    "additionalProbingPaths": [
+      "/Users/artegful/.dotnet/store/|arch|/|tfm|",
+      "/Users/artegful/.nuget/packages"
+    ]
+  }
+}

@@ -1,0 +1,70 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title></title>
+    <link href="lib/bootstrap/dist/css/bootstrap.css" rel="stylesheet" />
+    <link href="lib/font-awesome/css/all.css" rel="stylesheet" />
+    <link href="css/site.css" rel="stylesheet" />
+</head>
+<body>
+    <header>
+        <div class="container">
+            <nav class="navbar navbar-expand-md navbar-dark bg-dark">
+                <a class="navbar-brand" href="#">95350066</a>
+                <div class="navbar-nav">
+                    <a asp-controller="Home" asp-action="Index" class="nav-item nav-link active"><span class="badge badge-secondary">Лаба2</span></a>
+                    <a asp-controller="Product" asp-action="Index" class="nav-item nav-link"><span class="badge badge-secondary">Каталог</span></a>
+                    <a asp-area="Admin" asp-page="/Index" class="nav-item nav-link"><span class="badge badge-secondary">Администрирование</span></a>
+                </div>
+
+                <a asp-controller="Cart" asp-action="Index" class="navbar-text ml-auto">
+                    <i class="fas fa-shopping-cart nav-color"></i> 0
+                </a>
+                <div class="dropdown ml-4 nav-color">
+                    <div class="dropdown-toggle" id="dropdownMenuButton"
+                         data-toggle="dropdown" aria-haspopup="true"
+                         aria-expanded="false">
+                        <img src="images/user.png" width="30"
+                             alt="User" class="rounded" />
+                    </div>
+                    <div class="dropdown-menu"
+                         aria-labelledby="dropdownMenuButton">
+                        <div class="dropdown-item-text">
+                            <img src="images/user.png" width="50" class="rounded" /> artem@gmail.com
+                        </div>
+                        <div class="dropdown-divider"></div>
+                        <a asp-controller="Product" asp-action="UserProducts" class="dropdown-item">Товары</a>
+                        <a asp-area="Identity" asp-page="/Account/Logout" class="dropdown-item">Выйти</a>
+                    </div>
+                </div>
+            </nav>
+        </div>
+    </header>
+
+    <main class="container">
+        @RenderBody()
+    </main>
+
+    <footer>
+        <div class="container">
+            <div class="navbar navbar-dark navbar-expand-md bg-dark">
+                <div class="navbar-nav ml-auto">
+                    <a class="nav-item nav-link" href="https://www.facebook.com">
+                        <i class="fab fa-facebook-f fa-2x"></i>
+                    </a>
+                    <a class="nav-item nav-link" href="https://www.vk.com">
+                        <i class="fab fa-vk fa-2x"></i>
+                    </a>
+                    <a class="nav-item nav-link" href="https://www.twitter.com">
+                        <i class="fab fa-twitter fa-2x"></i>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="lib/jquery/dist/jquery.js"></script>
+    <script src="lib/bootstrap/dist/js/bootstrap.bundle.js"></script>
+</body>
+</html>
